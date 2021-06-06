@@ -1,7 +1,6 @@
 /*
-some wallpapers i found
+some wallpapers i found might put more if im bothered enough to do so
 https://wallpapercave.com/download/gradient-wallpaper-MoJBWga?nocache=1
-https://149366088.v2.pressablecdn.com/wp-content/uploads/2016/10/digitalocean-penguin-linux-wallpaper.jpg
 */
 
 * {
@@ -9,7 +8,7 @@ https://149366088.v2.pressablecdn.com/wp-content/uploads/2016/10/digitalocean-pe
 }
 
 body {
-  background-image: url("https://149366088.v2.pressablecdn.com/wp-content/uploads/2016/10/digitalocean-penguin-linux-wallpaper.jpg");
+  background-image: url("https://wallpapercave.com/download/gradient-wallpaper-MoJBWga?nocache=1");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
