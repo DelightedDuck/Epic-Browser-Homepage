@@ -1,13 +1,15 @@
 /*
+some wallpapers i found
 https://wallpapercave.com/download/gradient-wallpaper-MoJBWga?nocache=1
- Linked to Homepage.html */
+https://149366088.v2.pressablecdn.com/wp-content/uploads/2016/10/digitalocean-penguin-linux-wallpaper.jpg
+*/
 
 * {
     font-family: Arial;
 }
 
 body {
-  background-image: url("");
+  background-image: url("https://149366088.v2.pressablecdn.com/wp-content/uploads/2016/10/digitalocean-penguin-linux-wallpaper.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
