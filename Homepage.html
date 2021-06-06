@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<!-- Linked to styleHomepage.css -->
-<!-- Linked to Roboto font on Google Font -->
+<!-- never gonna give you up -->
+
 
 <html>
 
     <head>
-        <Title>Homepage</Title>
+        <Title>Startpage</Title>
         <link href = "styleHomepage.css" type = "text/css" rel = "stylesheet">
-        <link href = "https://fonts.googleapis.com/css?family=Roboto:400,700" rel = "stylesheet">
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-        <script src = "background.js"></script>
         <script src = "clock.js"></script>
-    </head>
+        <script src = "background.js"></script>
+  </head>
 
     <div id = "clock"></div>
 
-    <div class = "boxContainer">
-        <div id = "twitch" class = "boxes">
-            <a href = "https://www.twitch.tv/directory">
-                <img src = "Pictures\twitch.png" width = "75" height = "75" alt = "Twitch"/>
-            </a>
-        </div>
+    <div id = "github" class = "boxes">
+        <a href = "https://github.com">
+            <img src = "Pictures\github.png" width = "75" height = "75" alt = "Github"/>
+        </a>
+    </div>
+
+    <div id = "invidious" class = "boxes">
+        <a href = "https://yewtu.be/feed/subscriptions">
+            <img src = "Pictures\invidious.png" width = "75" height = "75" alt = "Invidious"/>
+        </a>
+    </div>
 
         <div id = "youtube" class = "boxes">
             <a href = "https://www.youtube.com/feed/subscriptions">
@@ -29,25 +32,16 @@
             </a>
         </div>
 
-        <div id = "netflix" class = "boxes">
-            <a href = "https://www.netflix.com/browse">
-                <img src = "Pictures\netflix.png" width = "75" height = "75" alt = "Netflix"/>
+        <div id = "pihole" class = "boxes">
+            <a href = "http://192.168.1.1/admin/index.php">
+                <img src = "Pictures\pihole.png" width = "75" height = "75" alt = "Pihole"/>
             </a>
         </div>
 
-        <div id = "reddit" class = "boxes">
-            <a href = "https://www.reddit.com/">
-                <img src = "Pictures\reddit.png" width = "75" height = "75" alt = "Reddit"/>
+        <div id = "scratch" class = "boxes">
+            <a href = "https://scratch.mit.edu/">
+                <img src = "Pictures\Scratch1.png" width = "75" height = "75" alt = "Scratch"/>
             </a>
         </div>
 
-         <div id = "amazon" class = "boxes">
-            <a href = "https://smile.amazon.com/">
-                <img src = "Pictures\amazon.png" width = "75" height = "75" alt = "Amazon"/>
-            </a>
-        </div>
-
-        <button onclick = "changeImage()" type = "button">Change Image</button>
-    </div>
-        
 </html>

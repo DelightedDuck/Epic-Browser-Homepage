@@ -1,37 +1,27 @@
-/* Linked to Homepage.html */
+/*
+https://wallpapercave.com/download/gradient-wallpaper-MoJBWga?nocache=1
+ Linked to Homepage.html */
 
-* { 
-    font-family: Roboto, "Arial Black", sans-serif;
+* {
+    font-family: Arial;
 }
 
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000000;
 }
 
 
 #clock {
     font-size: 500%;
     text-align: center;
-    text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;
+    color: white;
 }
 
-.boxContainer {
-    margin: auto;
-}
 
 .boxes {
     display: block;
-}
-
-button {
-    background-color: black;
-    color: white;
-    border-color: grey;
-    width: 75px;
 }
